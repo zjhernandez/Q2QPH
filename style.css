@@ -1,0 +1,110 @@
+*{
+	margin: 0;	
+	font-family: cursive;
+}
+
+.group {
+	background-color: purple;
+	color: white;
+	background-image: url(starving.webp);
+	background-size: cover;
+	height: 450px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+	font-size: 50px;
+	padding-top: 110px;
+	text-shadow: 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;	
+}
+
+.navbar a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px;
+	color: white;
+	margin-left: 250px;
+	text-shadow: 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+}
+
+.navbar a:hover{
+    background-color: rgba(169, 169, 169, 0.5);
+}
+
+.navbar li{
+    float: left;
+    justify-content: center;
+}
+
+.Image1 {
+	padding-top: 70px;
+	padding-left: 200px;
+}
+
+.words {
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 70px;
+}
+
+.group1 {
+	display: flex;
+	flex-direction: row;
+}
+
+.Image2 {
+	padding-top: 70px;
+	padding-right: 200px;
+}
+
+.group2 {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.Image3 {
+	padding-top: 70px;
+	padding-left: 200px;
+}
+
+.group3 {
+	display: flex;
+	flex-direction: row;
+}
+
+.words1 {
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 100px;
+}
+
+.group4 {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.words2 {
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 100px;
+}
+
+.Image4 {
+	padding-top: 70px;
+	padding-right: 200px;
+}
